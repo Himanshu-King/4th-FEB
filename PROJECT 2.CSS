@@ -1,0 +1,161 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    overflow:hidden;
+    font-family: 'Poppins', sans-serif;
+}
+body
+{
+    width: 100vw;
+    height: 100vh;
+
+    /* Flex Propeties */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+header
+{
+    /* border: black solid 1px; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 13vh;
+}
+header div
+{
+    /* border: red solid 1px; */
+    margin-left: 1.2%;
+    display: flex;
+    height: 9vh;
+}
+header div img
+{
+    /* border: red solid 1px; */
+    margin-left: 1.2%;
+}
+header ul
+{
+    /* border: red solid 1px; */
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-right: 34%;
+    /* margin-right: 40%; */
+    margin-left:5px;
+    height: 10vh;
+    width:40vw;
+    /* margin-left:0px; */
+}
+li
+{
+    /* border: pink solid 1px; */
+    /* margin: 3.5%; */
+    font-size: 19px;
+    
+}
+li:hover
+{
+    font-weight: 600;
+    cursor: pointer;
+    text-decoration: underline;
+    
+}
+button
+{
+    background-color: rgb(89,85,179);
+    color:white;
+    padding: 0.9%;
+    border: none;
+    border-radius: 10px;
+    letter-spacing: 1px;
+    font-size: 14px;
+}
+header button:hover
+{
+    letter-spacing: 0px;
+    padding: 0.8%;
+    /* width: 10vw; */
+    border: 2px solid rgb(89,85,179);
+    background-color: #fff;
+    color: rgb(89,85,179);
+    font-weight: 600;
+    font-size: 16px;
+    cursor: pointer;
+}
+header button
+{
+    width: 10vw;
+    margin: 3%;
+}
+section
+{
+    /* border: black solid 1px; */
+    height: 85vh;
+    display: flex;
+    justify-content: space-between;
+}
+left
+{
+    width: 40vw;
+    /* border: solid red 1px; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:8vh;
+}
+left h1
+{
+    /* border: red 1px solid; */
+    width:35vw;
+    color: rgb(60,46,96);
+    font-size: 60px;
+}
+.h1-div
+{
+    /* border: red 1px solid; */
+    color: rgb(89,85,179);
+    display: inline;
+}
+left p
+{
+    position: relative;
+    right: 4%;
+    /* border: red 1px solid; */
+    font-size: 18px;
+    width:32vw;
+}
+left button
+{
+    padding: 2%;
+    width: 11vw;
+    align-self: flex-start;
+    margin-left: 5.5%;
+}
+left button:hover
+{
+    letter-spacing: 0px;
+    padding: 1.6%;
+    width: 11vw;
+    border: 2px solid rgb(89,85,179);
+    background-color: #fff;
+    color: rgb(89,85,179);
+    font-weight: 600;
+    font-size: 16px;
+    cursor: pointer;
+}
+right
+{
+    width:59.7vw;
+    /* border: solid red 1px; */
+}
+.main-img
+{
+    /* width:10vw; */
+    width: 59.7vw;
+    height: 39.4vw;
+    /* border: black solid 1px; */
+}
